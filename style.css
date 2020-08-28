@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+:root {
+  font-size: 65%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  outline: none;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  min-height: 100vh;
+  height: 100vh;
+}
+
+body {
+  padding: 2rem 1.5rem 0rem;
+}
+
+header h1 {
+  color: #4e5150;
+  margin-bottom: 1.5rem;
+
+  font-weight: 600;
+
+  font-size: 3rem;
+}
+
+main {
+  min-width: 90vw;
+}
+
+.products-container {
+  background: #f0f0f0;
+
+  border-radius: 1.5rem;
+
+  padding: 5rem 2rem 2rem;
+}
+
+.products-container .products-list {
+  margin-bottom: 12rem;
+}
+
+.products-container article {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-bottom: 4rem;
+}
+
+.products-container article > div {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.products-container img {
+  border-radius: 2rem;
+
+  width: 17rem;
+  height: 17rem;
+}
+
+.products-container div header p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.products-container div header .price {
+  color: #f2994a;
+
+  font-size: 1.8rem;
+
+  margin-top: 1.7rem;
+}
+
+.products-container div .price small {
+  color: black;
+  text-decoration: line-through;
+
+  font-size: 1.3rem;
+
+  margin-left: 1rem;
+}
+
+.products-container .input-container {
+  padding: 1.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 1.5rem;
+  border: 1px solid #9c9c9c;
+}
+
+.input-container button {
+  width: 3rem;
+  height: 3.5rem;
+
+  font-size: 2.5rem;
+  font-weight: 600;
+
+  border: none;
+  border-radius: 0.8rem;
+
+  background: #e0e0e0;
+  color: #828282;
+
+  cursor: pointer;
+}
+
+.products-container .input-container span {
+  text-align: center;
+
+  border: none;
+
+  font-size: 2.3rem;
+  font-weight: 600;
+
+  margin: 0 4rem;
+}
+
+.products-container .total-container div {
+  border: none;
+  border-top: 1px solid #bdbdbd;
+
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+  padding: 1.2rem 0;
+}
+
+.products-container .total-container div span {
+  font-size: 1.6rem;
+
+  font-weight: 700;
+
+  color: #333333;
+}
+
+.products-container .total-container div + div span {
+  margin-top: 0.5rem;
+}
+
+form {
+  margin-top: 3rem;
+}
+
+form fieldset {
+  border: none;
+
+  margin-bottom: 4rem;
+}
+
+form fieldset legend {
+  font-size: 2rem;
+  font-weight: 600;
+
+  margin-left: 0.3rem;
+}
+
+form .input-group,
+form .select-group {
+  margin: 1.5rem 0;
+}
+
+form .input-group label,
+form .select-group label {
+  display: block;
+
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  margin-bottom: 0.7rem;
+  margin-left: 0.5rem;
+}
+
+form .input-group div,
+form .select-group div {
+  display: flex;
+  align-items: center;
+
+  border-radius: 1.5rem;
+  border: 1px solid rgb(146, 146, 146);
+
+  padding: 1.3rem 1rem;
+}
+
+form .input-group div span,
+form .select-group div span {
+  color: #828282;
+}
+
+form .input-group input,
+form .select-group select {
+  width: 100%;
+
+  border: none;
+
+  margin-left: 1rem;
+
+  font-size: 1.5rem;
+}
+
+form .select-group select {
+  color: #828282;
+}
+
+form .checkBox-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-bottom: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.form .checkBox-group input {
+  height: 5rem;
+}
+
+form .checkBox-group span {
+  font-weight: 600;
+  font-size: 1.2rem;
+
+  margin-left: 1rem;
+  color: #4f4f4f;
+}
+
+form button {
+  font-size: 1.8rem;
+  font-weight: 600;
+
+  background: #f2994a;
+  color: white;
+
+  border: none;
+  border-radius: 1.5rem;
+
+  padding: 2rem 6rem;
+
+  cursor: pointer;
+
+  float: right;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  font-size: 1.3rem;
+
+  color: #828282;
+}
