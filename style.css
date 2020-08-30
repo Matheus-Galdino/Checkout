@@ -188,14 +188,16 @@ form fieldset legend {
 
 form .input-group,
 form .select-group {
-  margin: 1.5rem 0;
+  margin: 1.7rem 0;
+
+  transition: all 0.2s ease;
 }
 
 form .input-group label,
 form .select-group label {
   display: block;
 
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 600;
 
   margin-bottom: 0.7rem;
@@ -211,6 +213,12 @@ form .select-group div {
   border: 1px solid rgb(146, 146, 146);
 
   padding: 1.3rem 1rem;
+
+  transition: all 0.3s ease;
+}
+
+form .input-group div:focus-within {
+  border: 2px solid #ec9040;
 }
 
 form .input-group div span,
